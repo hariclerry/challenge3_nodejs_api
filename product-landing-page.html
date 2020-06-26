@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <link rel="stylesheet" type="text/css" href="landing.css" />
+    <title>Clerry's landing page</title>
+  </head>
+
+  <body>
+    <header id="header">
+      <nav id="nav-bar">
+        <img src="./photos/coffee.png" alt="" id="header-img" />
+        <p>The Olel Recipes</p>
+        <ul>
+          <li class="nav-link"><a href="#features">Features</a></li>
+          <li class="nav-link"><a href="#video">How it works</a></li>
+          <li class="nav-link"><a href="#price">Pricing</a></li>
+        </ul>
+      </nav>
+      <form action="/" id="form">
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter email..."
+          required
+        />
+        <input type="submit" id="submit" name="submit" value="Get started" />
+      </form>
+    </header>
+    <div id="main">
+      <div class="container">
+        <p class="sub-text">Available Olel Recipes</p>
+        <section id="features">
+          <div class="recipes-card">
+            <img src="./photos/food3.jpeg" alt="Avatar" style="width: 100%;" />
+            <div class="recipes-text">
+              <h4><b>Breakfast Recipes</b></h4>
+              <p>Includes all things breakfast. Learn more...</p>
+            </div>
+          </div>
+
+          <div class="recipes-card">
+            <img src="./photos/food2.jpeg" alt="Avatar" style="width: 100%;" />
+            <div class="recipes-text">
+              <h4><b>Lunch Recipes</b></h4>
+              <p>Includes all things lunch. Learn more...</p>
+            </div>
+          </div>
+
+          <div class="recipes-card">
+            <img src="./photos/food4.jpeg" alt="Avatar" style="width: 100%;" />
+            <div class="recipes-text">
+              <h4><b>Dinner Recipes</b></h4>
+              <p>Includes all things dinner. Learn more...</p>
+            </div>
+          </div>
+        </section>
+        <p class="sub-text">A sample video showing how it's done</p>
+        <section id="video">
+          <video
+            src="./videos/soup.mp4"
+            style="width: 100%; object-fit: cover;"
+            controls
+          ></video>
+        </section>
+        <p class="sub-text">Olel recipes packages, available and affordable!!</p>
+        <section id="price">
+          <div class="plan">
+            <h2>Silver Package</h2>
+            <p>Healthy and Cheap, yet delicious and commonly made. Includes breakfast and desert recipes.</p>
+            <p class="price-tag">$10</p>
+          </div>
+
+          <div class="plan">
+            <h2>Diamond Package</h2>
+            <p>
+              The grand package. Healthy and Common, finger licking and out of the world. Includes breakfast, lunch and dinner recipes.
+            </p>
+            <p class="price-tag">$50</p>
+          </div>
+
+          <div class="plan">
+            <h2>Golden Package</h2>
+            <p>The ultimate package! Healthy and finger licking. Includes breakfast, lunch, dinner, desert and many more recipes. Value for money!</p>
+            <p class="price-tag">$90</p>
+          </div>
+        </section>
+        <footer>&copy; Harriet.</footer>
+      </div>
+    </div>
+  </body>
+</html>
