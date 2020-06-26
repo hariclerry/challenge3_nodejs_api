@@ -1,2 +1,2 @@
-# My website
-Built using Gatsby.js and includes portfolio
+# Landing page
+Built using HTML and CSS
